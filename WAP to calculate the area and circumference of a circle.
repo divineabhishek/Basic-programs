@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+int main(){
+int radius , cir , area ;
+      printf("Enter the radius of circle:\n");
+      scanf("%d", &radius);
+area = 3.14 * radius* radius;
+cir = 2 * 3.14 * radius;
+      printf("The area of circle is  %d.\n", area);
+      printf("The circumference of the circle is %d.\n", cir);
+
+getch();
+}
