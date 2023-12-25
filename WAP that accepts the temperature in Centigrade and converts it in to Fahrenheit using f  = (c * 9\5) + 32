@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+int main(){
+      float centigrade , fahrennheit;
+      printf("Enter the temperature in Centigrade:\n");
+      scanf("%f" , &centigrade);
+
+fahrenheit = (centigrade * 9/5) + 32;
+printf("The temperature in Fahrenheit is %f.\n", fahrenheit);
+
+getch();
+}
