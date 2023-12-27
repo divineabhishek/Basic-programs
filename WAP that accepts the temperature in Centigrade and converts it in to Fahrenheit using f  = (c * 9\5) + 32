@@ -4,6 +4,7 @@
 
 int main(){
       float centigrade , fahrennheit;
+      clrscr();
       printf("Enter the temperature in Centigrade:\n");
       scanf("%f" , &centigrade);
 
