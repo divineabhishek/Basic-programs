@@ -3,6 +3,7 @@
 #include <math.h>
 int main(){
 int radius , cir , area ;
+      clrscr();
       printf("Enter the radius of circle:\n");
       scanf("%d", &radius);
 area = 3.14 * radius* radius;
