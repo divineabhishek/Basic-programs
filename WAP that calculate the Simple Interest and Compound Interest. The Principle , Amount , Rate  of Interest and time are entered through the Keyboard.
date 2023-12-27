@@ -3,6 +3,7 @@
 #include <math.h>
 int main(){
 float principle , rate , time , si , ci ;
+        clrscr();
         printf("Enter the value of principle:\n");
         scanf("%f", &principle);
         printf("Enter the value of Rate:\n");
