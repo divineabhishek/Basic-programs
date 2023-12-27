@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+int main (){
+int a , b , c;
+clrscr();
+printf("Enter the first number:\n");
+scanf("%d", &a);
+printf("Enter the Second number:\n");
+scanf("%d", &b);
+c = a;
+a = b;
+b = c;
+printf("The swaped value of a and b is a = %d \n b = %d\n");
+getch();
+}
