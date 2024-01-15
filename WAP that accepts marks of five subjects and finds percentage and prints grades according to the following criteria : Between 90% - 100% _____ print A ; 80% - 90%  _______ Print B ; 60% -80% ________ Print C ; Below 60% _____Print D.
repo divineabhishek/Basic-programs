@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+int main (){
+int p , c , m , b , cs , percentage ; 
+
+      printf("Enter the marks of Physics:\n");
+      scanf("%d", &p);
+      printf("Enter the marks of Chemistry:\n");
+      scanf("%d", &c);
+      printf("Enter the marks of Mathematics:\n");
+      scanf("%d", &m);
+      printf("Enter the marks of Biology:\n");
+      scanf("%d", &b);
+      printf("Enter the marks of Computer Science:\n");
+      scanf("%d", &cs);
+
+percentage = (p + c + m + b + cs)/ 5;
+printf("The percentage is %d.\n", percentage);
+
+      if (percentage >= 90 && percentage <= 100){
+      printf("Grade A\n");
+      }
+      
+      else if (percentage >= 80 && percentage < 90){
+      printf("Grade B\n");
+      }
+      
+      else if (percentage >= 60 && percentage < 80){
+      printf("Grade C\n");
+      }
+      
+      else {
+      printf("Grade D\n")
+      }
+
+getch();
+}
